@@ -69,9 +69,7 @@ document.addEventListener("click", closeAllSelect);
  * show = visualize || stop
  * */
 function showButton(show) {
-    let buttonId = "visualizeSort";
-
-    let button = document.getElementById(buttonId);
+    let button = document.getElementById("visualizeSort");
     button.innerText = show;
     button.className = show + "-button";
 

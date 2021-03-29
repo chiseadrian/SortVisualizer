@@ -6,10 +6,10 @@ window.onload = function () {
 }
 
 async function visualize() {
-    if (isRunning("Sort"))
+    if (isRunning())
         location.reload();
 
-    showButton("stop", "Sort");
+    showButton("stop");
     currentAlgorithm = document.getElementById("sort-algorithm-selected").value;
     switch (currentAlgorithm) {
         case "mergesort":
@@ -30,7 +30,7 @@ async function visualize() {
             break;
         default:
             alert("Select an algorithm !!!");
-            showButton("visualize", "Sort");
+            showButton("visualize");
             break;
     }
 }
