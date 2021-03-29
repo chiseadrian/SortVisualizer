@@ -1,3 +1,3 @@
 # SortVisualizer
 
-https://chiseadrian.github.io/SortVisualizer
+https://chiseadrian.github.io/SortVisualizer/
