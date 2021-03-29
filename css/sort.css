@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: linear-gradient(-45deg, #183850 0, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%);
+}
+
+#content{
+    height: 91%;
+    display: flex;
+    justify-content: center;
+}
+
+.array-item{
+    margin-left: 5px;
+    width: 10px;
+    background: #46dad3;
+}
+.array-ordered{
+    margin-left: 5px;
+    width: 10px;
+    background: #44fb54;
+}
